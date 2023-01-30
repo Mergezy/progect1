@@ -15,7 +15,7 @@ public class Main {
         int min = Integer.MAX_VALUE;
         double sum = 0;
 
-        for (int i : mas) {
+        for (int i = 0; i < mas.length; i++) {
             if (mas[i] > max1) {
                 max3 = max2; // присвоение второго максимального третьему
                 max2 = max1; // присвоение первого макимального второму
